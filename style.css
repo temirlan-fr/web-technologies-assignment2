@@ -196,3 +196,113 @@ body {
 .photo:hover figcaption {
     opacity: 1;
 }
+
+.portfolio-section {
+    padding: 40px;
+}
+
+.portfolio {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #dddddd;
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px;
+    background-color: #1d428a;
+}
+
+.portfolio-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.portfolio-menu {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-menu a:hover {
+    color: #ffc72c;
+}
+
+.portfolio-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    padding: 25px;
+}
+
+.projects {
+    min-width: 0;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    min-height: 180px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+.project:last-child {
+    margin-bottom: 0;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #1d428a;
+}
+
+.project-button {
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 10px 16px;
+    color: white;
+    background-color: #1d428a;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project-button:hover {
+    background-color: #ffc72c;
+    color: #111111;
+}
+
+.portfolio-info {
+    padding: 20px;
+    background-color: #e9f0fa;
+}
+
+.portfolio-info h2 {
+    margin-top: 0;
+    color: #1d428a;
+}
+
+.portfolio-info ul {
+    padding-left: 20px;
+}
+
+.portfolio-footer {
+    padding: 20px;
+    color: white;
+    background-color: #263445;
+    text-align: center;
+}
